@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">FoodLicious</string>
+    <string name="about">About</string>
+
+    <string name="food_name">Nama Makanan</string>
+    <string name="namaDaerah">Nama Daerah</string>
+    <string name="type">Type</string>
+    <string name="name">Nama Makanan</string>
+    <string name="favorite">Favorite</string>
+    <string name="detail">Detail Makanan</string>
+
+    <string name="share">share</string>
+</resources>

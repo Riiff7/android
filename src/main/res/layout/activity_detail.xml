@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <com.synnapps.carouselview.CarouselView
+            android:id="@+id/carouselView"
+            android:layout_width="match_parent"
+            android:layout_height="243dp"
+            app:fillColor="#FFFFFFFF"
+            app:pageColor="#00000000"
+            app:radius="6dp"
+            app:slideInterval="3000"
+            app:strokeColor="#FF777777"
+            app:strokeWidth="1dp" />
+        <TextView
+            android:id="@+id/nama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_margin="16dp"
+            android:layout_marginBottom="8dp"
+            android:text="@string/name"
+            android:textStyle="bold"
+            android:textSize="40sp" />
+
+<!--        <TextView-->
+<!--            android:id="@+id/manfaat"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_margin="16dp"-->
+<!--            android:layout_marginBottom="8dp"-->
+<!--            android:text="@string/namaDaerah"-->
+<!--            android:textColor="@android:color/holo_green_dark"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textSize="30sp" />-->
+
+        <TextView
+            android:id="@+id/serah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deial Makanan"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:lineSpacingMultiplier="1"
+            android:textColor="@android:color/black" />
+        <Button
+            android:id="@+id/btn_share"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:text="@string/share"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</ScrollView>
